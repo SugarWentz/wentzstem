@@ -14,11 +14,11 @@ body {
     /* Basic settings that may change based on device and accessibility but should generally stay the same for the site's look */
     height: 250px;
     width: 200px;
-    background-color:#1e2124;
-    
-    /* Settings for how the box should display on the webpage */
-    margin-left:10px;
+    background-color:#0f0f10;
+    margin-bottom:10px;
 }
+
+/* Member avatar image formatting, please keep this the same */
 
 .avatar {
     width:100px;
@@ -40,6 +40,12 @@ body {
     margin-top:20px;
 }
 
+.boxgroup {
+    margin-left:10px;
+    margin-right:10px;
+    justify-content:space-around;
+}
+
 /*
 Formatting similar to Discord.
 */
@@ -50,8 +56,6 @@ Formatting similar to Discord.
     padding-left:2px;
     padding-right:2px;
 }
-
-/* Still needs to be configured in JS - it has not yet been. */
 
 .spoiler {
     background-color:#202225;
@@ -66,4 +70,72 @@ Formatting similar to Discord.
     color:#ffffff;
     text-decoration: none;
 }
-/*changez*/
+
+.ital {
+    font-style:italic;
+}
+
+.bold {
+    font-weight:bold;
+}
+
+.fancy-font {
+    font-family:serif;
+}
+
+.strikethrough {
+    text-decoration:line-through;
+}
+
+/* Different sections of the website, as well as section wrappers. */
+
+.section {
+    margin-top:10px;
+    top:0;
+    margin-left:10px;
+    margin-right:10px;
+    border-style:solid;
+    border-radius:20px;
+    border-width:4px;
+    border-color:#89d2dc;
+    padding:30px;
+    background-color:#0f0f10;
+    width:200px;
+    display:inline-block;
+}
+
+#syscard {
+    margin-bottom:10px;
+    margin-top:20px;
+    top:0;
+    margin-left:10px;
+    margin-right:10px;
+    border-style:solid;
+    border-radius:20px;
+    border-width:4px;
+    border-color:#89d2dc;
+    padding:30px;
+    background-color:#0f0f10;
+}
+
+/* Levels of headings and formatting */
+
+.subheading {
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+    font-size:20px;
+    font-weight:bold;
+}
+
+.list {
+    display:inline-block;
+}
+
+.bulletpoint {
+    border-radius:100%;
+    border-width:0px;
+    width:12px;
+    height:12px;
+    background-color:#5865F2;
+}
