@@ -3,3 +3,66 @@ body {
     font-family:verdana,sans-serif;
     color:#ffffff;
 }
+
+.memberbox {
+    /* Member box border settings, color will change based on member color from API while the current color is the system color as of 06/02/22 */
+    border-style:solid;
+    border-radius:20px;
+    border-width:4px;
+    border-color:#89d2dc;
+    
+    /* Basic settings that may change based on device and accessibility but should generally stay the same for the site's look */
+    height: 250px;
+    width: 200px;
+    background-color:#1e2124;
+    
+    /* Settings for how the box should display on the webpage */
+    margin-left:10px;
+}
+
+.avatar {
+    width:100px;
+    height:100px;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    border-style:solid;
+    border-radius:20px;
+    border-width:2px;
+    border-color:#89d2dc;
+}
+
+.boxmembertext {
+    color:#ffffff;
+    font-family:verdana,sans-serif;
+    border-style: solid none none none;
+    padding-top:15px;
+    margin-top:20px;
+}
+
+/*
+Formatting similar to Discord.
+*/
+
+.inline-code {
+    background-color:#2f3136;
+    font-family:consolas,courier-new,monospace;
+    padding-left:2px;
+    padding-right:2px;
+}
+
+/* Still needs to be configured in JS - it has not yet been. */
+
+.spoiler {
+    background-color:#202225;
+    color:#202225;
+    padding-left:2px;
+    padding-right:2px;
+    text-decoration: none;
+}
+
+.spoiler:hover {
+    background:#47494d;
+    color:#ffffff;
+    text-decoration: none;
+}
